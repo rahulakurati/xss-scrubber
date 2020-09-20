@@ -1,0 +1,37 @@
+{
+  "name": "xss-scrubber",
+  "version": "1.0.0",
+  "description": "Scrubs xss content in a JavaScript object",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src/index.js --out-file dist/index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulakurati/xss-scrubber.git"
+  },
+  "keywords": [
+    "xss",
+    "json",
+    "security",
+    "cross-site-scripting",
+    "sanitization",
+    "sanitize",
+    "input",
+    "encode",
+    "injection"
+  ],
+  "author": "Rahul Akurati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulakurati/xss-scrubber/issues"
+  },
+  "homepage": "https://github.com/rahulakurati/xss-scrubber#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "mocha": "^8.1.3"
+  }
+}
